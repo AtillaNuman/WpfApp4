@@ -11,11 +11,18 @@ using System.Windows.Shapes;
 
 namespace WpfApp4
 {
+    class Ogrenci
+    {
+        public string? ogr_ad;
+        public string? ogr_no;
+    }
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
+
+
         public MainWindow()
         {
             InitializeComponent();
